@@ -18,7 +18,8 @@
     "mobx":"5.15.4",
     "mobx-react":"6.2.2",
     "qs":"6.9.4",
-    "react-ryui":"^1.0.1"
+    "antd":"4.1.4",
+    "react-ryui":"1.0.1"
   },
   "devDependencies": {
     "webpack": "4.42.1",
