@@ -7,7 +7,7 @@ module.exports = {
     filename: 'app.js'
   },
   resolve: {
-    extensions: ['.ts', '.tsx', '.js', '.json']
+    extensions: ['.js', '.jsx', '.js', '.json']
   },
   module: {
     rules: [{
@@ -38,7 +38,7 @@ module.exports = {
     }]
   },
   devServer: {
-    host: '192.127.0.1',
+    host: '127.0.0.1',
     port:80,
     compress: true,
     contentBase: './www',
