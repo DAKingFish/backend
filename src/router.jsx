@@ -7,7 +7,7 @@ class AppRouter extends React.Component {
   render() {
     return (
       <Router history={ browserHistory }>
-        <Redirect from='/' to='home'/>
+        <Redirect from='/' to='login'/>
         <Route path='/' component={Layout}>
           <Route path='home' component={Home} />
           <Route path='login' component={Login} />
