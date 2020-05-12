@@ -7,7 +7,7 @@ class AppRouter extends React.Component {
   render() {
     return (
       <Router history={ browserHistory }>
-        <Redirect from='/' to='home'/>//指定跳转到主页,先期demo后期修改
+        <Redirect from='/' to='home'/>
         <Route path='/' component={Layout}>
           <Route path='home' component={Home} />
           <Route path='login' component={Login} />
