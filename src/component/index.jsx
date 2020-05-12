@@ -1,7 +1,7 @@
 import React from 'react'
-import { Header } from './header/nav'
-import { Left } from './left/left'
-import { Right } from './right/right'
+import { Header } from './header'
+import { Left } from './left'
+import { Right } from './right'
 import './index.less'
 class Home extends React.Component {
   render() {
