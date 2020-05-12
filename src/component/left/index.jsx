@@ -1,5 +1,5 @@
 import React from 'react'
-import './left.less'
+import './index.less'
 import { Nav } from 'react-ryui'
 class Left extends React.Component {
   state = {

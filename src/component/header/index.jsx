@@ -1,6 +1,6 @@
 import React from 'react'
 import { Nav } from 'react-ryui'
-import './nav.less'
+import './index.less'
 class Header extends React.Component {
   state = {
     navList: [{

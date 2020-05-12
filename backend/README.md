@@ -1,2 +1,0 @@
-# Backdent
-person backdent-management
