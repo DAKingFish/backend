@@ -5,20 +5,20 @@ class Left extends React.Component {
   state = {
     menu: [{
       key: '1',
-      icon: 'iconfont icon-lingdang',
-      label: '个人中心',
+      icon: 'iconfont icon-gerenzhongxin',
+      label: '内容系统',
       subMenu: [{
         key: '1-2',
         icon: 'iconfont icon-zhankaifumulu',
-        label: '我的信息'
+        label: '文章列表'
       }, {
         key: '1-3',
         icon: 'iconfont icon-zhankaifumulu',
-        label: '个人中心'
+        label: '分类管理'
       }, {
         key: '1-4',
         icon: 'iconfont icon-zhankaifumulu',
-        label: '我的提交'
+        label: '评论管理'
       }]
     }, {
       key: '2',
@@ -26,7 +26,7 @@ class Left extends React.Component {
       label: '用户管理'
     }, {
       key: '3',
-      icon: 'iconfont icon-gouwucheman',
+      icon: 'iconfont icon-biaodanyemian',
       label: '信息中心'
     }]
   }
